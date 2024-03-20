@@ -31,7 +31,7 @@
         <button class="btn_toggle">배경색상변경_그레이</button>
     </div>
     <script>
-        const btnToggle = document.querySelector('btn_toggle');
+        const btnToggle = document.querySelector('btn_toggle'); /* 변수를 하나 줘서 읽어올 수 있도록 */
         //addEventListener('이벤트', 실행함수);
         btnToggle.addEventListener('click', function() {
             document.body.classList.toggle('bgcolor--blue');
